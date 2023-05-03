@@ -1,0 +1,2074 @@
+{
+    "default": {
+      "loading": "Се вчитува...",
+      "error": "Се случи грешка.",
+      "success": "Успех!"
+    },
+    "actions": {
+      "edit": "Уредување",
+      "cancel": "Откажи",
+      "continue_shopping": "Да продолжите со купување",
+      "back_to_checkout": "Назад на наплатата",
+      "checkout": "Исплата",
+      "apply": "Пријавете се",
+      "dismiss": "Отфрли",
+      "type_address": "Напишете ја вашата адреса",
+      "use_this_address": "Користете ја оваа адреса",
+      "back_to_store": "Назад во продавница",
+      "close_cart": "Затвори количка",
+      "show": "Прикажи",
+      "hide": "Крие",
+      "apply_changes": "Примени промени",
+      "yes_use_it": "Да, користете го",
+      "save_changes": "Зачувајте ги промените",
+      "back_to_orders": "Назад кон нарачките",
+      "change_password": "Промени го пасвордот",
+      "clear_cart": "Исчистете ја количката",
+      "add": "Додадете"
+    },
+    "header": {
+      "title_cart_summary": "Резиме на количка",
+      "loading": "Се вчитува..."
+    },
+    "item": {
+      "quantity": "Квантитет",
+      "quantity_short": "Количина",
+      "decrement_quantity": "Намалете ја количината",
+      "increment_quantity": "Зголемете ја количината",
+      "remove_item": "Отстрани ставка",
+      "recurrence": {
+        "daily": "ден |||| ",
+        "weekly": "недела |||| ",
+        "monthly": "месец |||| ",
+        "yearly": "година |||| "
+      }
+    },
+    "subscription": {
+      "title": "Претплата",
+      "state": {
+        "title": "држава",
+        "active": "Активен",
+        "paused": "Паузирано",
+        "finished": "Завршено",
+        "stopped": "Застана",
+        "cancellationrequested": "Претплатата ќе престане на крајот од циклусот за наплата."
+      },
+      "placed_on": "Поставен на",
+      "final_billing_date": "Конечниот датум на наплата",
+      "items": "Предмети",
+      "plan": "Планирајте",
+      "billed_on": "Фактурирана на",
+      "payment_amount": "Износ на плаќање",
+      "processing": "Претплатата сè уште се обработува. ",
+      "loading": "Се вчитуваат претплати",
+      "cancel": "Откажи",
+      "pause": "Пауза",
+      "unpause": "Продолжи",
+      "billing_recurrence": {
+        "daily": "Се наплаќа секој ден |||| ",
+        "weekly": "Се наплаќа секоја недела |||| ",
+        "monthly": "Се наплаќа секој месец |||| ",
+        "yearly": "Се наплаќа секоја година |||| "
+      }
+    },
+    "carrier": {
+      "AmazonMws": {
+        "UPS Rates": "Стапки на UPS-от",
+        "USPS Rates": "Стапки на USPS",
+        "FedEx Rates": "Стапки на FedEx",
+        "UPS Labels": "Етикети на UPS-от",
+        "USPS Labels": "USPS етикети",
+        "FedEx Labels": "Етикети на FedEx",
+        "UPS Tracking": "Следење на UPS-от",
+        "USPS Tracking": "Следење на USPS",
+        "FedEx Tracking": "Следење на FedEx"
+      },
+      "APC": {
+        "parcelConnectBookService": "Услуга за книга за поврзување парцели",
+        "parcelConnectExpeditedDDP": "Поврзете парцела забрзана DDP",
+        "parcelConnectExpeditedDDU": "Поврзете парцела забрзано DDU",
+        "parcelConnectPriorityDDP": "Приоритет за поврзување парцела DDP",
+        "parcelConnectPriorityDDPDelcon": "Приоритет за поврзување на парцела DDP Delcon",
+        "parcelConnectPriorityDDU": "Приоритет за поврзување на парцела DDU",
+        "parcelConnectPriorityDDUDelcon": "Приоритет за поврзување на парцела DDU Delcon",
+        "parcelConnectPriorityDDUPQW": "Приоритет за поврзување на парцела DDUPQW",
+        "parcelConnectStandardDDU": "Поврзете парцела Стандарден DDU",
+        "parcelConnectStandardDDUPQW": "Поврзете парцела Стандарден DDUPQW",
+        "parcelConnectPacketDDU": "Пакет за поврзување на парцела DDU"
+      },
+      "Asendia": {
+        "PMI": "PMI",
+        "ePacket": "ePacket",
+        "IPA": "ИПА",
+        "ISAL": "ИСАЛ"
+      },
+      "AsendiaUSA": {
+        "ADS": "РЕКЛАМИ",
+        "AirFreightInbound": "Воздушен товар Влезен",
+        "AirFreightOutbound": "Воздушен товарен излез",
+        "AsendiaDomesticBoundPrinterMatterExpedited": "Забрзана е важноста на домашните врзани печатачи на Asendia",
+        "AsendiaDomesticBoundPrinterMatterGround": "Домашен печатач Asendia Matter Ground",
+        "AsendiaDomesticFlatsExpedited": "Асендија Домашни станови забрзано",
+        "AsendiaDomesticFlatsGround": "Asendia Домашни станови земјата",
+        "AsendiaDomesticParcelGroundOver1lb": "Asendia Домашна парцела над 1lb",
+        "AsendiaDomesticParcelGroundUnder1lb": "Asendia Домашна парцела под 1 lb",
+        "AsendiaDomesticParcelMAXOver1lb": "Асендија домашна парцела MAX над 1 lb",
+        "AsendiaDomesticParcelMAXUnder1lb": "Асендија домашна парцела MAX под 1 фунта",
+        "AsendiaDomesticParcelOver1lbExpedited": "Асендија домашна парцела над 1 фунта забрзана",
+        "AsendiaDomesticParcelUnder1lbExpedited": "Забрзана домашна парцела Asendia под 1 lb",
+        "AsendiaDomesticPromoParcelExpedited": "Домашната промо парцела на Asendia е забрзана",
+        "AsendiaDomesticPromoParcelGround": "Асендија Домашна промо парцела",
+        "BulkFreight": "Масовен товар",
+        "BusinessMailCanadaLettermail": "Business Mail Canada Lettermail",
+        "BusinessMailCanadaLettermailMachineable": "Business Mail Canada Lettermail Machineable",
+        "BusinessMailEconomy": "Економија на деловна пошта",
+        "BusinessMailEconomyLPWholesale": "Business Mail Economy LP Трговија на големо",
+        "BusinessMailEconomySPWholesale": "Business Mail Economy SP Трговија на големо",
+        "BusinessMailIPA": "Бизнис пошта ИПА",
+        "BusinessMailISAL": "Деловна пошта ISAL",
+        "BusinessMailPriority": "Приоритет за деловна пошта",
+        "BusinessMailPriorityLPWholesale": "Бизнис пошта приоритет LP Трговија на големо",
+        "BusinessMailPrioritySPWholesale": "Бизнис пошта приоритет СП Трговија на големо",
+        "MarketingMailCanadaPersonalizedLCP": "Маркетинг пошта Канада Персонализиран LCP",
+        "MarketingMailCanadaPersonalizedMachineable": "Маркетинг пошта Канада персонализирана машинска",
+        "MarketingMailCanadaPersonalizedNDG": "Маркетинг пошта во Канада, персонализиран NDG",
+        "MarketingMailEconomy": "Економија на маркетинг пошта",
+        "MarketingMailIPA": "Маркетинг пошта ИПА",
+        "MarketingMailISAL": "Маркетинг пошта ISAL",
+        "MarketingMailPriority": "Приоритет за маркетинг пошта",
+        "PublicationsCanadaLCP": "Публикации Канада ЗКП",
+        "PublicationsCanadaNDG": "Публикации Канада NDG",
+        "PublicationsEconomy": "Публикации Економија",
+        "PublicationsIPA": "Публикации ИПА",
+        "PublicationsISAL": "Публикации ISAL",
+        "PublicationsPriority": "Приоритет на публикации",
+        "ePAQElite": "ePAQ Elite",
+        "ePAQEliteCustom": "ePAQ Elite Custom",
+        "ePAQEliteDAP": "ePAQ Elite DAP",
+        "ePAQEliteDDP": "ePAQ Elite DDP",
+        "ePAQEliteDDPOversized": "ePAQ Elite DDP Преголеми",
+        "ePAQEliteDPD": "ePAQ Elite DPD",
+        "ePAQEliteDirectAccessCanadaDDP": "ePAQ Elite Direct Access Canada DDP",
+        "ePAQEliteOversized": "ePAQ Elite Преголеми",
+        "ePAQPlus": "ePAQ Plus",
+        "ePAQPlusCustom": "Прилагодено ePAQ Plus",
+        "ePAQPlusCustomsPrepaid": "ePAQ Plus царински припејд",
+        "ePAQPlusDAP": "ePAQ Plus DAP",
+        "ePAQPlusDDP": "ePAQ Plus DDP",
+        "ePAQPlusEconomy": "ePAQ Plus Economy",
+        "ePAQPlusWholesale": "ePAQ Plus Трговија на големо",
+        "ePAQPlusePacket": "ePAQ Pluse пакет",
+        "ePAQPlusePacketCanadaCustomsPrePaid": "ePAQ Pluse пакет Канада Царина однапред платена",
+        "ePAQPlusePacketCanadaDDP": "ePAQ Pluse пакет Канада DDP",
+        "ePAQReturnsDomestic": "ePAQ се враќа дома",
+        "ePAQReturnsInternational": "ePAQ се враќа меѓународен",
+        "ePAQSelect": "ePAQ Изберете",
+        "ePAQSelectCustom": "ePAQ Изберете Прилагодено",
+        "ePAQSelectCustomsPrepaidByShopper": "ePAQ Изберете царински припејд од купувачот",
+        "ePAQSelectDAP": "ePAQ Изберете DAP",
+        "ePAQSelectDDP": "ePAQ Изберете DDP",
+        "ePAQSelectDDPDirectAccess": "ePAQ Изберете DDP Direct Access",
+        "ePAQSelectDirectAccess": "ePAQ Изберете Директен пристап",
+        "ePAQSelectDirectAccessCanadaDDP": "ePAQ Изберете Директен пристап Канада DDP",
+        "ePAQSelectEconomy": "ePAQ Изберете Економија",
+        "ePAQSelectOversized": "ePAQ Изберете Преголеми",
+        "ePAQSelectOversizedDDP": "ePAQ Изберете Преголем DDP",
+        "ePAQSelectPMEI": "ePAQ Изберете PMEI",
+        "ePAQSelectPMEICanadaCustomsPrePaid": "ePAQ Изберете PMEI Canada Customs Prepaid",
+        "ePAQSelectPMEIPCPostage": "ePAQ Изберете PMEIPC поштарина",
+        "ePAQSelectPMI": "ePAQ Изберете PMI",
+        "ePAQSelectPMICanadaCustomsPrepaid": "ePAQ Изберете PMI Canada Customs Prepaid",
+        "ePAQSelectPMICanadaDDP": "ePAQ Изберете PMI Canada DDP",
+        "ePAQSelectPMINonPresort": "ePAQ Изберете PMI Non Presort",
+        "ePAQSelectPMIPCPostage": "ePAQ Изберете PMIPC поштарина",
+        "ePAQStandard": "Стандард ePAQ",
+        "ePAQStandardCustom": "ePAQ Standard Custom",
+        "ePAQStandardEconomy": "ePAQ Стандардна економија",
+        "ePAQStandardIPA": "ePAQ Стандард ИПА",
+        "ePAQStandardISAL": "ePAQ Стандард ISAL",
+        "ePaqSelectPMEINonPresort": "ePAQ Изберете PMEI Non Presort"
+      },
+      "AustraliaPost": {
+        "ExpressPost": "Експрес пост",
+        "ExpressPostSignature": "Експресен пост потпис",
+        "ParcelPost": "Пошта на парцела",
+        "ParcelPostSignature": "Потпис на пратка",
+        "ParcelPostExtra": "Дополнителна пошта за пратки",
+        "ParcelPostWinePlusSignature": "Парцела Пост Вино Плус потпис"
+      },
+      "AxlehireV3": {
+        "AxleHireDelivery": "Испорака за изнајмување оска"
+      },
+      "BetterTrucks": {
+        "NEXT_DAY": "Следен ден"
+      },
+      "Bond": {
+        "Standard": "Стандарден"
+      },
+      "CanadaPost": {
+        "RegularParcel": "Редовна парцела",
+        "ExpeditedParcel": "Забрзана парцела",
+        "Xpresspost": "Xpresspost",
+        "XpresspostCertified": "Сертифициран за Xpresspost",
+        "Priority": "Приоритет",
+        "LibraryBooks": "Библиотечни книги",
+        "ExpeditedParcelUSA": "Забрзана парцела САД",
+        "PriorityWorldwideEnvelopeUSA": "Приоритетен светски плик САД",
+        "PriorityWorldwidePakUSA": "Приоритет во светот Пак САД",
+        "PriorityWorldwideParcelUSA": "Приоритетна Светска Парцела САД",
+        "SmallPacketUSAAir": "Мал пакет USA Air",
+        "TrackedPacketUSA": "Следен пакет САД",
+        "TrackedPacketUSALVM": "Следен пакет USALVM",
+        "XpresspostUSA": "Xpresspost САД",
+        "XpresspostInternational": "Xpresspost International",
+        "InternationalParcelAir": "International Parcel Air",
+        "InternationalParcelSurface": "Површина на меѓународна парцела",
+        "PriorityWorldwideEnvelopeIntl": "Priority Worldwide Envelope Intl",
+        "PriorityWorldwidePakIntl": "Приоритет во светот Pak Intl",
+        "PriorityWorldwideParcelIntl": "Приоритет Светски Парцели Меѓународен",
+        "SmallPacketInternationalAir": "Мал пакет меѓународен воздух",
+        "SmallPacketInternationalSurface": "Меѓународна површина на мали пакети",
+        "TrackedPacketInternational": "Следен пакет International"
+      },
+      "Canpar": {
+        "Ground": "Земјата",
+        "SelectLetter": "Изберете Писмо",
+        "SelectPak": "Изберете Pak",
+        "Select": "Изберете",
+        "OvernightLetter": "Писмо за ноќевање",
+        "OvernightPak": "Ноќевање Пак",
+        "Overnight": "Преку ноќ",
+        "SelectUSA": "Изберете САД",
+        "USAPak": "САД Пак",
+        "USALetter": "Писмо од САД",
+        "USA": "САД",
+        "International": "Меѓународен"
+      },
+      "CDLLastMileSolutions": {
+        "DISTRIBUTION": "Дистрибуција",
+        "Same Day": "Истиот ден"
+      },
+      "CourierExpress": {
+        "BASIC_PARCEL": "Основна парцела"
+      },
+      "CouriersPlease": {
+        "DomesticPrioritySignature": "Потпис за домашен приоритет",
+        "DomesticPriority": "Домашен приоритет",
+        "DomesticOffPeakSignature": "Домашен потпис надвор од врвот",
+        "DomesticOffPeak": "Домашни Off Peak",
+        "GoldDomesticSignature": "Златен домашен потпис",
+        "GoldDomestic": "Злато Домашни",
+        "AustralianCityExpressSignature": "Австралиски сити експрес потпис",
+        "AustralianCityExpress": "Австралиски Сити Експрес",
+        "DomesticSaverSignature": "Потпис за домашен штедач",
+        "DomesticSaver": "Домашен штедач",
+        "RoadExpress": "Road Express",
+        "5KgSatchel": "Кесичка од 5 килограми",
+        "3KgSatchel": "Чанта од 3 кг",
+        "1KgSatchel": "Чанта од 1 кг",
+        "5KgSatchelATL": "5 кг кесичка ATL",
+        "3KgSatchelATL": "3 кг кесичка ATL",
+        "1KgSatchelATL": "1 кг кесичка ATL",
+        "500GramSatchel": "Чанта од 500 грама",
+        "500GramSatchelATL": "500 грама кесичка ATL",
+        "25KgParcel": "Парцела од 25 кг",
+        "10KgParcel": "Парцела од 10 кг",
+        "5KgParcel": "Парцела од 5 кг",
+        "3KgParcel": "Парцела од 3 кг",
+        "1KgParcel": "Парцела од 1 кг",
+        "500GramParcel": "Парцела од 500 грама",
+        "500GramParcelATL": "Парцела од 500 грама ATL",
+        "ExpressInternationalPriority": "Експрес меѓународен приоритет",
+        "InternationalSaver": "Меѓународен штедач",
+        "InternationalExpressImport": "Интернационален експресен увоз",
+        "InternationalExpress": "International Express"
+      },
+      "DaiPost": {
+        "DomesticTracked": "Домашни следени",
+        "InternationalEconomy": "меѓународна економија",
+        "InternationalStandard": "Меѓународен стандард",
+        "InternationalExpress": "International Express"
+      },
+      "DeutschePost": {
+        "PacketPlus": "Пакет плус"
+      },
+      "DeutschePostUK": {
+        "PriorityPacketPlus": "Приоритетен пакет плус",
+        "PriorityPacket": "Приоритетен пакет",
+        "PriorityPacketTracked": "Следен приоритетен пакет",
+        "BusinessMailRegistered": "Регистрирана е деловна пошта",
+        "StandardPacket": "Стандарден пакет",
+        "BusinessMailStandard": "Стандард за деловна пошта"
+      },
+      "DHLeCommerceAsia": {
+        "Packet": "Пакет",
+        "PacketPlus": "Пакет плус",
+        "ParcelDirect": "Парцела Директно",
+        "ParcelDirectExpedited": "Парцелата Директно забрзана"
+      },
+      "DHLeCommerceSolutions": {
+        "DHLParcelExpedited": "Парцелата на DHL е забрзана",
+        "DHLParcelExpeditedMax": "DHL Parcel Expedited Max",
+        "DHLParcelGround": "ДХЛ парцела земја",
+        "DHLBPMExpedited": "DHLBPM забрзано",
+        "DHLBPMGround": "DHLBPM земјата",
+        "DHLParcelInternationalDirect": "DHL Parcel International Direct",
+        "DHLParcelInternationalStandard": "Меѓународен стандард за парцела на DHL",
+        "DHLPacketInternational": "DHL Packet International",
+        "DHLParcelInternationalDirectPriority": "Меѓународен директен приоритет на DHL Parcel",
+        "DHLParcelInternationalDirectStandard": "Меѓународен директен стандард на DHL Parcel"
+      },
+      "DHLExpress": {
+        "BreakBulkEconomy": "Скршете ја масовната економија",
+        "BreakBulkExpress": "Скрши Масовно Експрес",
+        "DomesticEconomySelect": "Изберете домашна економија",
+        "DomesticExpress": "Домашен експрес",
+        "DomesticExpress1030": "Домашен експрес 10:30",
+        "DomesticExpress1200": "Домашен експрес 12:00 часот",
+        "EconomySelect": "Избери економија",
+        "EconomySelectNonDoc": "Економија Изберете Non Doc",
+        "EuroPack": "Евро пакет",
+        "EuropackNonDoc": "Europack Non Doc",
+        "Express1030": "Експрес 10:30",
+        "Express1030NonDoc": "Експрес 10:30 Non Doc",
+        "Express1200NonDoc": "Експрес 12:00 Non Doc",
+        "Express1200": "Експрес 12:00 часот",
+        "Express900": "Експрес 9:00 часот",
+        "Express900NonDoc": "Експрес 9:00 Non Doc",
+        "ExpressEasy": "Експрес лесно",
+        "ExpressEasyNonDoc": "Express Easy Non Doc",
+        "ExpressEnvelope": "Експрес плик",
+        "ExpressWorldwide": "Експрес ширум светот",
+        "ExpressWorldwideB2C": "Express Worldwide B2C",
+        "ExpressWorldwideB2CNonDoc": "Express Worldwide B2C Non Doc",
+        "ExpressWorldwideECX": "Express Worldwide ECX",
+        "ExpressWorldwideNonDoc": "Express Worldwide Non Doc",
+        "FreightWorldwide": "Товар во светот",
+        "GlobalmailBusiness": "Globalmail Business",
+        "JetLine": "Авион линија",
+        "JumboBox": "Џамбо кутија",
+        "LogisticsServices": "Логистички услуги",
+        "SameDay": "Истиот ден",
+        "SecureLine": "Безбедна линија",
+        "SprintLine": "Спринт линија"
+      },
+      "DPD": {
+        "DPDCLASSIC": "DPD CLASSIC",
+        "DPD8:30": "ДПД 8:30",
+        "DPD10:00": "ДПД 10:00 часот",
+        "DPD12:00": "ДПД 12:00 часот",
+        "DPD18:00": "ДПД 18:00 часот",
+        "DPDEXPRESS": "ДПД ЕКСПРЕС",
+        "DPDPARCELLETTER": "ДПД ПАРЦЕЛА ПИСМО",
+        "DPDPARCELLETTERPLUS": "ДПД ПАРЦЕЛА ПЛУС",
+        "DPDINTERNATIONALMAIL": "DPD МЕЃУНАРОДНА ПОШТА"
+      },
+      "DPDUK": {
+        "AirExpressInternationalAir": "Air Express International Air",
+        "AirClassicInternationalAir": "Air Classic International Air",
+        "ParcelSunday": "Парцела недела",
+        "FreightParcelSunday": "Товарна парцела недела",
+        "PalletSunday": "Недела на палети",
+        "PalletDpdClassic": "Палета Dpd Classic",
+        "ExpresspakDpdClassic": "Expresspak Dpd Classic",
+        "ExpresspakSunday": "Недела на Експреспак",
+        "ParcelDpdClassic": "Парцела Dpd Classic",
+        "ParcelDpdTwoDay": "Парцела Dpd два дена",
+        "ParcelDpdNextDay": "Парцела Dpd следниот ден",
+        "ParcelDpd12": "Парцела Дпд 12",
+        "ParcelDpd10": "Парцела Дпд 10",
+        "ParcelReturnToShop": "Парцела Враќање во продавница",
+        "ParcelSaturday": "Парцела сабота",
+        "ParcelSaturday12": "Парцела сабота 12",
+        "ParcelSaturday10": "Парцела сабота 10",
+        "ParcelSunday12": "Парцела недела 12",
+        "FreightParcelDpdClassic": "Товарна парцела Dpd Classic",
+        "FreightParcelSunday12": "Товарна пратка недела 12",
+        "ExpresspakDpdNextDay": "Expresspak Dpd Следниот ден",
+        "ExpresspakDpd12": "Експреспак Дпд 12",
+        "ExpresspakDpd10": "Експреспак Дпд 10",
+        "ExpresspakSaturday": "Експреспак сабота",
+        "ExpresspakSaturday12": "Експреспак сабота 12",
+        "ExpresspakSaturday10": "Експреспак сабота 10",
+        "ExpresspakSunday12": "Експреспак недела 12",
+        "PalletSunday12": "Недела на палети 12",
+        "PalletDpdTwoDay": "Палета Dpd два дена",
+        "PalletDpdNextDay": "Палета Dpd следниот ден",
+        "PalletDpd12": "Палета Dpd 12",
+        "PalletDpd10": "Палета Dpd 10",
+        "PalletSaturday": "Сабота на палети",
+        "PalletSaturday12": "Сабота на палети 12",
+        "PalletSaturday10": "Сабота на палети 10",
+        "FreightParcelDpdTwoDay": "Товарна парцела Dpd два дена",
+        "FreightParcelDpdNextDay": "Товарна парцела Dpd Следниот ден",
+        "FreightParcelDpd12": "Товарна парцела Дпд 12",
+        "FreightParcelDpd10": "Товарна парцела Дпд 10",
+        "FreightParcelSaturday": "Товарна парцела сабота",
+        "FreightParcelSaturday12": "Товарна пратка сабота 12",
+        "FreightParcelSaturday10": "Товарна пратка сабота 10"
+      },
+      "ePostGlobal": {
+        "CourierServiceDDP": "Курирска служба DDP",
+        "CourierServiceDDU": "Курирска служба DDU",
+        "DomesticEconomyParcel": "Парцела за домашна економија",
+        "DomesticParcelBPM": "Домашна парцела BPM",
+        "DomesticPriorityParcel": "Парцела со домашен приоритет",
+        "DomesticPriorityParcelBPM": "Домашна приоритетна парцела BPM",
+        "EMIService": "ЕМИ услуга",
+        "EconomyParcelService": "Сервис за економична парцела",
+        "IPAService": "ИПА услуга",
+        "ISALService": "Сервис на ИСАЛ",
+        "PMIService": "Услуга PMI",
+        "PriorityParcelDDP": "Приоритетна парцела ДДП",
+        "PriorityParcelDDU": "Приоритетна парцела ДДУ",
+        "PriorityParcelDeliveryConfirmationDDP": "Потврда за испорака на приоритетна парцела DDP",
+        "PriorityParcelDeliveryConfirmationDDU": "Потврда за испорака на приоритетна парцела DDU",
+        "ePacketService": "ePacket услуга"
+      },
+      "Estafeta": {
+        "NextDayBy930": "Следниот ден до 9:30 часот",
+        "NextDayBy1130": "Следниот ден до 11:30 часот",
+        "NextDay": "Следен ден",
+        "Ground": "Земјата",
+        "TwoDay": "Два дена",
+        "LTL": "LTL"
+      },
+      "Fastway": {
+        "Parcel": "Парцела",
+        "Satchel": "Чанта"
+      },
+      "FedEx": {
+        "FEDEX_GROUND": "ФЕДЕКС ТЕМНА",
+        "FEDEX_2_DAY": "FEDEX 2 ДЕН",
+        "FEDEX_2_DAY_AM": "ФЕДЕКС 2 ДЕН УЧЕНО",
+        "FEDEX_EXPRESS_SAVER": "FEDEX EXPRESS SAVER",
+        "STANDARD_OVERNIGHT": "СТАНДАРДНО НОЌЕВАЊЕ",
+        "FIRST_OVERNIGHT": "ПРВО НОЌЕВАЊЕ",
+        "PRIORITY_OVERNIGHT": "ПРИОРИТЕТ во текот на ноќта",
+        "INTERNATIONAL_ECONOMY": "МЕЃУНАРОДНА ЕКОНОМИЈА",
+        "INTERNATIONAL_FIRST": "ПРВО МЕЃУНАРОДНА",
+        "INTERNATIONAL_PRIORITY": "МЕЃУНАРОДЕН ПРИОРИТЕТ",
+        "GROUND_HOME_DELIVERY": "ДОСТАВА ПО ДОМА",
+        "SMART_POST": "ПАМЕТНА ПОСТ"
+      },
+      "FedExCrossBorder": {
+        "CBEC": "CBEC",
+        "CBECL": "CBECL",
+        "CBECP": "CBECP"
+      },
+      "FedExSameDayCity": {
+        "EconomyService": "Економска служба",
+        "StandardService": "Стандардна услуга",
+        "PriorityService": "Приоритетна услуга",
+        "LastMile": "Последна милја"
+      },
+      "FedExSmartPost": {
+        "SMART_POST": "ПАМЕТНА ПОСТ"
+      },
+      "Globegistics": {
+        "PMEI": "PMEI",
+        "PMI": "PMI",
+        "eComDomestic": "eCom Domestic",
+        "eComEurope": "eCom Europe",
+        "eComExpress": "eCom Express",
+        "eComExtra": "eCom Extra",
+        "eComIPA": "eCom IPA",
+        "eComISAL": "eCom ISAL",
+        "eComPMEIDutyPaid": "Платена должност на eCom PMEI",
+        "eComPMIDutyPaid": "Платена должност на eCom PMI",
+        "eComPacket": "eCom пакет",
+        "eComPacketDDP": "eCom пакет DDP",
+        "eComPriority": "eCom приоритет",
+        "eComStandard": "eCom Standard",
+        "eComTrackedDDP": "eCom следен DDP",
+        "eComTrackedDDU": "eCom Tracked DDU"
+      },
+      "GSO": {
+        "EarlyPriorityOvernight": "Ран приоритет во текот на ноќта",
+        "PriorityOvernight": "Приоритет во текот на ноќта",
+        "CaliforniaParcelService": "Сервис за пакети во Калифорнија",
+        "SaturdayDeliveryService": "Услуга за испорака во сабота",
+        "EarlySaturdayService": "Рана саботна служба",
+        "Ground": "Земјата",
+        "Overnight": "Преку ноќ"
+      },
+      "Hermes": {
+        "DomesticDelivery": "Домашна испорака",
+        "DomesticDeliverySigned": "Потпишана домашна испорака",
+        "InternationalDelivery": "Меѓународна испорака",
+        "InternationalDeliverySigned": "Потпишана меѓународна испорака"
+      },
+      "InterlinkExpress": {
+        "InterlinkAirClassicInternationalAir": "Interlink Air Classic International Air",
+        "InterlinkAirExpressInternationalAir": "Interlink Air Express International Air",
+        "InterlinkExpresspak1By10:30": "Интерлинк Експреспак 1 До 10:30 часот",
+        "InterlinkExpresspak1By12": "Интерлинк Експреспак 1 До 12:00 часот",
+        "InterlinkExpresspak1NextDay": "Interlink Expresspak 1 Следниот ден",
+        "InterlinkExpresspak1Saturday": "Interlink Expresspak 1 сабота",
+        "InterlinkExpresspak1SaturdayBy10:30": "Interlink Expresspak 1 Сабота До 10:30 часот",
+        "InterlinkExpresspak1SaturdayBy12": "Interlink Expresspak 1 Сабота До 12:00 часот",
+        "InterlinkExpresspak1Sunday": "Интерлинк Експреспак 1 недела",
+        "InterlinkExpresspak1SundayBy12": "Interlink Expresspak 1 Недела До 12:00 часот",
+        "InterlinkExpresspak5By10": "Интерлинк Експреспак 5 До 10:00 часот",
+        "InterlinkExpresspak5By10:30": "Interlink Expresspak 5 До 10:30 часот",
+        "InterlinkExpresspak5By12": "Интерлинк Експреспак 5 До 12:00 часот",
+        "InterlinkExpresspak5NextDay": "Interlink Expresspak 5 Следниот ден",
+        "InterlinkExpresspak5Saturday": "Интерлинк Експреспак 5 Сабота",
+        "InterlinkExpresspak5SaturdayBy10": "Interlink Expresspak 5 Сабота До 10:00 часот",
+        "InterlinkExpresspak5SaturdayBy10:30": "Interlink Expresspak 5 Сабота До 10:30 часот",
+        "InterlinkExpresspak5SaturdayBy12": "Interlink Expresspak 5 Сабота До 12:00 часот",
+        "InterlinkExpresspak5Sunday": "Интерлинк Експреспак 5 недела",
+        "InterlinkExpresspak5SundayBy12": "Interlink Expresspak 5 Недела До 12:00 часот",
+        "InterlinkFreightBy10": "Interlink товар до 10:00 часот",
+        "InterlinkFreightBy12": "Interlink товар до 12:00 часот",
+        "InterlinkFreightNextDay": "Интерлинк товар следниот ден",
+        "InterlinkFreightSaturday": "Interlink товарен сабота",
+        "InterlinkFreightSaturdayBy10": "Interlink Товарна сабота До 10:00 часот",
+        "InterlinkFreightSaturdayBy12": "Interlink Товарна сабота До 12:00 часот",
+        "InterlinkFreightSunday": "Interlink товарна недела",
+        "InterlinkFreightSundayBy12": "Interlink Товарна недела До 12:00 часот",
+        "InterlinkParcelBy10": "Интерлинк Парцела До 10:00 часот",
+        "InterlinkParcelBy10:30": "Интерлинк Парцела До 10:30 часот",
+        "InterlinkParcelBy12": "Интерлинк Парцела до 12",
+        "InterlinkParcelDpdEuropeByRoad": "Interlink Parcel Dpd Europe By Road",
+        "InterlinkParcelNextDay": "Интерлинк Парцела следниот ден",
+        "InterlinkParcelReturn": "Враќање на парцела за интерлинк",
+        "InterlinkParcelReturnToShop": "Interlink Парцела Враќање во продавница",
+        "InterlinkParcelSaturday": "Интерлинк Парцела сабота",
+        "InterlinkParcelSaturdayBy10": "Интерлинк Парцела Сабота До 10:00 часот",
+        "InterlinkParcelSaturdayBy10:30": "Интерлинк Парцела Сабота До 10:30 часот",
+        "InterlinkParcelSaturdayBy12": "Интерлинк Парцела Сабота До 12:00 часот",
+        "InterlinkParcelShipToShop": "Interlink Parcel Ship To Shop",
+        "InterlinkParcelSunday": "Interlink Парцела недела",
+        "InterlinkParcelSundayBy12": "Интерлинк Парцела Недела До 12:00 часот",
+        "InterlinkParcelTwoDay": "Interlink парцела два дена",
+        "InterlinkPickupParcelDpdEuropeByRoad": "Interlink Pickup Parcel Dpd Europe By Road"
+      },
+      "LaserShip": {
+        "SameDay": "Истиот ден",
+        "NextDay": "Следен ден",
+        "Weekend": "Викенд"
+      },
+      "LoomisExpress": {
+        "LoomisGround": "Loomis Ground",
+        "LoomisExpress1800": "Loomis Express 18:00 часот",
+        "LoomisExpress1200": "Лумис Експрес 12:00 часот",
+        "LoomisExpress900": "Лумис Експрес 9:00 часот"
+      },
+      "LSO": {
+        "GroundEarly": "Рано земјата",
+        "GroundBasic": "Ground Basic",
+        "PriorityBasic": "Приоритет Основен",
+        "PriorityEarly": "Приоритет рано",
+        "PrioritySaturday": "Приоритетна сабота",
+        "Priority2ndDay": "Приоритет 2-ри ден",
+        "SameDay": "Истиот ден"
+      },
+      "Newgistics": {
+        "ParcelSelect": "Одберете парцела",
+        "ParcelSelectLightweight": "Одберете парцела Лесна",
+        "Ground": "Земјата",
+        "Express": "Експрес",
+        "FirstClassMail": "Пошта од прва класа",
+        "PriorityMail": "Приоритетна пошта",
+        "BoundPrintedMatter": "Врзани печатени материјали"
+      },
+      "OnTrac": {
+        "Sunrise": "Изгрејсонце",
+        "Gold": "Злато",
+        "OnTracGround": "На патеката на теренот",
+        "SameDay": "Истиот ден",
+        "PalletizedFreight": "Палетизиран товар"
+      },
+      "OsmWorldwide": {
+        "First": "Прво",
+        "Expedited": "Забрзано",
+        "ParcelSelectLightweight": "Одберете парцела Лесна",
+        "Priority": "Приоритет",
+        "BPM": "BPM",
+        "ParcelSelect": "Одберете парцела",
+        "MediaMail": "Медиумска пошта",
+        "MarketingParcel": "Парцела за маркетинг",
+        "MarketingParcelTracked": "Следени маркетиншки пакети"
+      },
+      "Parcll": {
+        "Economy West": "Економија Запад",
+        "Economy East": "Економија Исток",
+        "Economy Central": "Економија Централна",
+        "Economy Northeast": "Економија Североисточен",
+        "Economy Southeast": "Економија Југоисточна",
+        "Economy South": "Економија Југ",
+        "Expedited West": "Забрзан Запад",
+        "Expedited East": "Забрзан Исток",
+        "Expedited Central": "Забрзана Централна",
+        "Expedited Northeast": "Забрзано североисток",
+        "Expedited Southeast": "Забрзан југоисток",
+        "Expedited South": "Забрзан југ"
+      },
+      "Purolator": {
+        "PurolatorExpress": "Пуролатор Експрес",
+        "PurolatorExpress12PM": "Пуролатор Експрес 12 часот",
+        "PurolatorExpressPack12PM": "Purolator Express пакет 12 часот",
+        "PurolatorExpressBox12PM": "Purolator Express Box 12 часот",
+        "PurolatorExpressEnvelope12PM": "Пуролатор Експрес плик 12 часот",
+        "PurolatorExpress1030AM": "Purolator Express 10:30 часот",
+        "PurolatorExpress9AM": "Пуролатор Експрес 9 часот наутро",
+        "PurolatorExpressBox": "Purolator Express Box",
+        "PurolatorExpressBox1030AM": "Purolator Express Box 10:30 часот",
+        "PurolatorExpressBox9AM": "Purolator Express Box 9 часот наутро",
+        "PurolatorExpressBoxEvening": "Purolator Express Box Вечер",
+        "PurolatorExpressBoxInternational": "Purolator Express Box International",
+        "PurolatorExpressBoxInternational1030AM": "Purolator Express Box International 10:30 часот",
+        "PurolatorExpressBoxInternational1200": "Purolator Express Box International 12:00 часот",
+        "PurolatorExpressBoxInternational9AM": "Purolator Express Box International 9 часот наутро",
+        "PurolatorExpressBoxUS": "Purolator Express Box САД",
+        "PurolatorExpressBoxUS1030AM": "Purolator Express Box САД 10:30 часот",
+        "PurolatorExpressBoxUS1200": "Purolator Express Box САД 12:00 часот",
+        "PurolatorExpressBoxUS9AM": "Purolator Express Box САД 9 часот наутро",
+        "PurolatorExpressEnvelope": "Пуролатор Експрес плик",
+        "PurolatorExpressEnvelope1030AM": "Пуролатор експрес плик 10:30 часот",
+        "PurolatorExpressEnvelope9AM": "Пуролатор Експрес плик 9 часот",
+        "PurolatorExpressEnvelopeEvening": "Пуролатор Експрес Плик Вечер",
+        "PurolatorExpressEnvelopeInternational": "Purolator Express Envelope International",
+        "PurolatorExpressEnvelopeInternational1030AM": "Purolator Express Envelope International 10:30 часот",
+        "PurolatorExpressEnvelopeInternational1200": "Purolator Express Envelope International 12:00 часот",
+        "PurolatorExpressEnvelopeInternational9AM": "Purolator Express Envelope International 9 часот наутро",
+        "PurolatorExpressEnvelopeUS": "Пуролатор Експрес плик САД",
+        "PurolatorExpressEnvelopeUS1030AM": "Пуролатор Експрес плик САД 10:30 часот",
+        "PurolatorExpressEnvelopeUS1200": "Пуролатор Експрес плик САД 12:00",
+        "PurolatorExpressEnvelopeUS9AM": "Пуролатор Експрес плик САД 9 часот",
+        "PurolatorExpressEvening": "Пуролатор Експрес Вечер",
+        "PurolatorExpressInternational": "Purolator Express International",
+        "PurolatorExpressInternational1030AM": "Purolator Express International 10:30 часот",
+        "PurolatorExpressInternational1200": "Purolator Express International 12:00 часот",
+        "PurolatorExpressInternational9AM": "Purolator Express International 9 часот наутро",
+        "PurolatorExpressPack": "Purolator Express пакет",
+        "PurolatorExpressPack1030AM": "Purolator Express пакет 10:30 часот",
+        "PurolatorExpressPack9AM": "Purolator Express пакет 9 часот наутро",
+        "PurolatorExpressPackEvening": "Пуролатор Експрес Пак Вечер",
+        "PurolatorExpressPackInternational": "Purolator Express Pack International",
+        "PurolatorExpressPackInternational1030AM": "Purolator Express Pack International 10:30 часот",
+        "PurolatorExpressPackInternational1200": "Purolator Express Pack International 12:00 часот",
+        "PurolatorExpressPackInternational9AM": "Purolator Express Pack International 09:00",
+        "PurolatorExpressPackUS": "Purolator Express пакет САД",
+        "PurolatorExpressPackUS1030AM": "Purolator Express пакет САД 10:30 часот",
+        "PurolatorExpressPackUS1200": "Purolator Express пакет САД 12:00",
+        "PurolatorExpressPackUS9AM": "Purolator Express пакет САД 09:00",
+        "PurolatorExpressUS": "Purolator Express US",
+        "PurolatorExpressUS1030AM": "Purolator Express US 10:30 часот",
+        "PurolatorExpressUS1200": "Пуролатор Експрес САД 12:00 часот",
+        "PurolatorExpressUS9AM": "Purolator Express US 9 часот",
+        "PurolatorGround": "Пуролатор земјата",
+        "PurolatorGround1030AM": "Purolator Ground 10:30 часот",
+        "PurolatorGround9AM": "Purolator Ground 09:00",
+        "PurolatorGroundDistribution": "Пуролатор земјата Дистрибуција",
+        "PurolatorGroundEvening": "Пуролатор земјата вечер",
+        "PurolatorGroundRegional": "Purolator земјата Регионална",
+        "PurolatorGroundUS": "Purolator земјата САД"
+      },
+      "RoyalMail": {
+        "InternationalSigned": "Меѓународен потпишан",
+        "InternationalStandard": "Меѓународен стандард",
+        "InternationalTracked": "Меѓународно следено",
+        "InternationalTrackedAndSigned": "Меѓународно следено и потпишано",
+        "1stClass": "1 класа",
+        "1stClassSignedFor": "1-ва класа потпишан за",
+        "2ndClass": "2 класа",
+        "2ndClassSignedFor": "Потпишан за 2 класа",
+        "RoyalMail24": "Кралска пошта 24",
+        "RoyalMail24SignedFor": "Кралската пошта 24 потпишана за",
+        "RoyalMail48": "Кралска пошта 48",
+        "RoyalMail48SignedFor": "Кралската пошта 48 потпишана за",
+        "SpecialDeliveryGuaranteed1pm": "Гарантирана специјална испорака во 13 часот",
+        "SpecialDeliveryGuaranteed9am": "Гарантирана специјална испорака во 9 часот наутро",
+        "StandardLetter1stClass": "Стандардна буква 1 класа",
+        "StandardLetter1stClassSignedFor": "Стандардна буква 1-ва класа потпишана за",
+        "StandardLetter2ndClass": "Стандардна буква 2. класа",
+        "StandardLetter2ndClassSignedFor": "Стандардно писмо 2-ро класа потпишано за",
+        "Tracked24": "Следени 24",
+        "Tracked24HighVolume": "Следени 24 висок волумен",
+        "Tracked24HighVolumeSignature": "Следени 24 потпис со висок волумен",
+        "Tracked24Signature": "Следени 24 потпис",
+        "Tracked48": "Следено 48",
+        "Tracked48HighVolume": "Следени 48 висок волумен",
+        "Tracked48HighVolumeSignature": "Следени 48 потпис со голем волумен",
+        "Tracked48Signature": "Следени 48 Потпис"
+      },
+      "SEKOOmniParcel": {
+        "eCommerce Standard Tracked": "Е-трговија Стандардно следи",
+        "eCommerce Express Tracked": "Следени е-трговија Експрес",
+        "Domestic Express": "Домашен експрес",
+        "Domestic Standard": "Домашен стандард"
+      },
+      "SFExpress": {
+        "International Standard Express - Doc": "International Standard Express - Доц",
+        "International Standard Express - Parcel": "International Standard Express - Парцела",
+        "International Economy Express - Pilot": "International Economy Express - пилот",
+        "International Economy Express - Doc": "International Economy Express - Доц"
+      },
+      "Spee-Dee": {
+        "SpeeDeeDelivery": "Спи-Ди испорака"
+      },
+      "StarTrack": {
+        "StartrackExpress": "Startrack Express",
+        "StartrackPremium": "Startrack Premium",
+        "StartrackFixedPricePremium": "Startrack фиксна цена Премиум"
+      },
+      "TForce": {
+        "SameDay": "Истиот ден",
+        "SameDayWhiteGlove": "Бела ракавица истиот ден",
+        "NextDay": "Следен ден",
+        "NextDayWhiteGlove": "Следниот ден Бела ракавица"
+      },
+      "UDS": {
+        "DeliveryService": "Сервис за достава"
+      },
+      "UPS": {
+        "Ground": "Земјата",
+        "UPSStandard": "Стандард на UPS-от",
+        "UPSSaver": "UPS Saver",
+        "Express": "Експрес",
+        "ExpressPlus": "Експрес плус",
+        "Expedited": "Забрзано",
+        "NextDayAir": "Следниот ден Воздух",
+        "NextDayAirSaver": "Заштеда на воздух следниот ден",
+        "NextDayAirEarlyAM": "Следниот ден Воздух рано наутро",
+        "2ndDayAir": "Втор ден воздух",
+        "2ndDayAirAM": "Воздух 2. AM",
+        "3DaySelect": "Изберете 3 ден"
+      },
+      "UPSMailInnovations": {
+        "First": "Прво",
+        "Priority": "Приоритет",
+        "ExpeditedMailInnovations": "Забрзани иновации за пошта",
+        "PriorityMailInnovations": "Приоритетни иновации за пошта",
+        "EconomyMailInnovations": "Економска пошта иновации"
+      },
+      "USPS": {
+        "First": "Прво",
+        "Priority": "Приоритет",
+        "Express": "Експрес",
+        "ParcelSelect": "Одберете парцела",
+        "LibraryMail": "Пошта на библиотеката",
+        "MediaMail": "Медиумска пошта",
+        "FirstClassMailInternational": "Меѓународна пошта од прва класа",
+        "FirstClassPackageInternationalService": "Прва класа пакет Меѓународна услуга",
+        "PriorityMailInternational": "Приоритетна пошта меѓународна",
+        "ExpressMailInternational": "Интернационална брза пошта"
+      },
+      "Veho": {
+        "nextDay": "Следен ден",
+        "sameDay": "Истиот ден"
+      }
+    },
+    "cart": {
+      "subtotal": "Субтотал",
+      "shipping_taxes_calculated_at_checkout": "Испораката и даноците ќе се пресметаат при наплатата.",
+      "loading": "Ја подготвуваме вашата количка...",
+      "secured_by": "Обезбедено со Snipcart",
+      "summary": "Резиме на нарачка",
+      "empty": "Вашата количка е празна.",
+      "invoice_number": "Број на фактура",
+      "view_detailed_cart": "Погледнете детална количка"
+    },
+    "order": {
+      "loading": "Ги добиваме деталите за вашата нарачка...",
+      "title": "Со цел"
+    },
+    "discount_box": {
+      "promo_code": "Промотивен код?",
+      "promo_code_placeholder": "Промотивен код",
+      "promocode_applied": "Применета е промоција"
+    },
+    "address_form": {
+      "name": "Целосно име",
+      "email": "Е-пошта",
+      "address1": "Адреса на улица",
+      "address2": "Стан/апартман",
+      "city": "Градот",
+      "country": "Земја",
+      "postalCode": "Поштенски/поштенски број",
+      "province": "Покраина/Држава",
+      "dont_see_address": "Не можам да ја најдам мојата адреса"
+    },
+    "billing": {
+      "title": "Наплата",
+      "address": "Адреса за фактурирање",
+      "continue_to_shipping": "Продолжете со испорака",
+      "use_different_shipping_address": "Користете различна адреса за испорака"
+    },
+    "customer": {
+      "information": "Информации за клиентите",
+      "payment_info": "Мои информации за плаќање",
+      "payment_method_update": {
+        "title": "Ажурирање на начинот на плаќање",
+        "outstanding_payment_failed": {
+          "title": "Плаќањето не успеа",
+          "description": "Вашиот начин на плаќање е ажуриран, но не можевме да го наплатиме неподмирениот салдо. "
+        }
+      }
+    },
+    "customer_details": {
+      "title": "Детали за клиентот"
+    },
+    "customer_dashboard": {
+      "my_account": "Мојот акаунт",
+      "ordered_on": "Нарачано на",
+      "next_billing_date": "Следен датум на наплата",
+      "price": "Цена",
+      "total": "Вкупно",
+      "status": "Статус",
+      "order": "Нарачка %{invoice_number}",
+      "order_details": "Детали за НАРАЧКА",
+      "loading": "Се вчитува...",
+      "no_orders": "Не се најдени нарачки.",
+      "no_subscriptions": "Не се пронајдени претплати.",
+      "view_invoice": "Погледнете ја фактурата",
+      "sign_out": "Одјави се",
+      "show_more_orders": "Прикажи уште %{smart_count} нарачка |||| ",
+      "show_more_subscriptions": "Прикажи уште %{smart_count} претплата |||| ",
+      "orders": "Нарачки",
+      "subscriptions": "Претплати",
+      "subscription": "Претплата"
+    },
+    "customer_notifications": {
+      "subscription": {
+        "outstanding_payment": {
+          "title": "Се доспева плаќање за претплата",
+          "description": "Во моментов имате претплата со задоцнето плаќање. "
+        }
+      }
+    },
+    "signin_form": {
+      "signin": "Најави се",
+      "dont_have_an_account": "Немате сметка?",
+      "email": "Е-пошта",
+      "password": "Лозинка",
+      "forgot_your_password": "Ја заборави лозинката?",
+      "close_form": "Врати се назад"
+    },
+    "forgot_password_form": {
+      "title": "Вратете ја вашата лозинка",
+      "instructions": "Внесете ја адресата на е-пошта на вашата сметка и ние ќе ви испратиме врска за ресетирање на лозинката.",
+      "email": "Е-пошта",
+      "email_instructions": "Ви е испратена е-пошта која содржи врска. ",
+      "action": "Испратете е-пошта за ресетирање на лозинката"
+    },
+    "reset_password_form": {
+      "title": "Ресетирајте ја лозинката",
+      "password": "Нова лозинка",
+      "confirmation_password": "Повторно внесете ја вашата нова лозинка",
+      "action": "Ресетирање на Лозинка"
+    },
+    "change_password_form": {
+      "title": "Сменете ја вашата лозинка",
+      "current_password": "Сегашна лозинка",
+      "password": "Нова лозинка",
+      "confirmation_password": "Повторно внесете ја вашата нова лозинка",
+      "action": "Промени го пасвордот"
+    },
+    "register_form": {
+      "register": "Регистрирајте се",
+      "already_have_an_account": "Веќе имате профил?",
+      "email": "Е-пошта",
+      "password": "Лозинка",
+      "confirm_password": "Потврди ја лозинката",
+      "requires_action": {
+        "title": "Проверете ги вашите е-пошта",
+        "description": "Оваа адреса на е-пошта веќе е искористена за да се заврши нарачката. "
+      }
+    },
+    "guest_checkout": {
+      "or": "Или",
+      "continue_as_a_guest": "Продолжете како гостин"
+    },
+    "shipping": {
+      "title": "Испорака",
+      "shipping_to": "Испорака до:",
+      "address": "Адреса за достава",
+      "method": "Метод на испорака",
+      "methods": {
+        "example_localization_id": "Ова е пример за локализиран метод на испорака"
+      }
+    },
+    "shipping_rates": {
+      "guaranteed_delivery_days": "Гарантирано ќе биде испорачано за %{guaranteedDaysToDelivery} ден(и)."
+    },
+    "payment": {
+      "form": {
+        "deferred_payment_title": "Одложено плаќање",
+        "deferred_payment_instructions": "Со поставување на оваа нарачка, се согласувате да платите подоцна преку начинот на плаќање што го идентификувал трговецот.",
+        "card_label": "Кредитна картичка",
+        "card_number": "Број на картичка",
+        "card_expiration": "ММ/ГГ",
+        "card_cvv": "CVV",
+        "card_postal_code": "Поштенски код",
+        "invalid_number": "Бројот на картичката е неважечки",
+        "invalid_expiration": "Датумот на истекување е неважечки",
+        "invalid_cvv": "CVV е неважечки",
+        "invalid_postal_code": "Поштенскиот број е неважечки"
+      },
+      "still_pending_notice": "Вашата уплата сè уште се обработува.",
+      "title": "Плаќање",
+      "continue_to_payment": "Продолжете со плаќање",
+      "credit_card": "Кредитна картичка",
+      "place_order": "Поставете нарачка",
+      "preparing_payment_session": "Се подготвува плаќање...",
+      "processing_payment": "Се обработува плаќањето...",
+      "checkout_with": "Одјавување со",
+      "checkout_with_method": "Одјавување со %{method}",
+      "method_icon": "Икона %{method}",
+      "no_payment": "Не е потребно плаќање за оваа нарачка.",
+      "methods": {
+        "card": "Кредитна картичка",
+        "paypal": "PayPal",
+        "paypal_express_checkout": "PayPal",
+        "apple_pay": "Apple Pay",
+        "bancontact": "Банконтакт",
+        "belfius": "Белфиус",
+        "eps": "Стандард за електронско плаќање",
+        "giropay": "Жиропај",
+        "ideal": "ИДЕАЛНИ",
+        "ing_home_pay": "ING Home’Pay",
+        "kbc": "КБЦ",
+        "klarna_pay_later": "Кларна плати подоцна",
+        "klarna_slice_it": "Кларна месечно финансирање",
+        "p24": "Przelewy24",
+        "sepa_debit": "СЕПА банкарски трансфер",
+        "sofort": "Софорт банкарски трансфер",
+        "deferred_payment": "Плати подоцна"
+      }
+    },
+    "discounts": {
+      "title": "Попусти"
+    },
+    "cart_summary": {
+      "taxes": "Даноци",
+      "taxes_included_in_price": "Некои ставки имаат вклучени даноци.",
+      "total": "Вкупно",
+      "subtotal": "Субтотал",
+      "shipping": "Испорака",
+      "discount": "Попусти",
+      "quantity": "x"
+    },
+    "errors": {
+      "default": "Настана грешка, обидете се повторно подоцна или контактирајте со нас.",
+      "promo_code_is_invalid": "Овој промотивен код не е валиден",
+      "promocode_already_in_cart": "Овој промотивен код е веќе применет",
+      "promocode_isnt_applicable": "Овој промотивен код не е валиден",
+      "promo_code_is_expired": "Овој промотивен код е истечен",
+      "stringEmpty": "Ова поле е задолжително",
+      "emailEmpty": "Ова поле е задолжително",
+      "required": "Ова поле е задолжително",
+      "invalid_expiry_year_past": "Картичката е истечена",
+      "email": "Ве молиме наведете валидна адреса за е-пошта",
+      "quantity_revised": "Количината е ревидирана поради ограничувањата на залихите.",
+      "quantity_out_of_stock": "За жал, оваа ставка нема залиха, отстранете ја од количката за да продолжите.",
+      "disabled_country": "Избраната земја не е достапна за наплата.",
+      "error_payment_items_are_invalid": {
+        "title": "Некои ставки во вашата кошничка се неважечки",
+        "description": "Прегледајте ја вашата нарачка или обидете се повторно подоцна."
+      },
+      "card": {
+        "invalid_number": "Бројот на картичката е неважечки.",
+        "invalid_date": "Датумот на истекување на картичката е неважечки.",
+        "invalid_year": "Годината на истекување на картичката е неважечка.",
+        "invalid_month": "Месецот на истекување на картичката е неважечки.",
+        "invalid_cvv": "CVV-то на картичката е неважечко.",
+        "invalid_expiration": "Датумот на истекување на картичката е неважечки.",
+        "expired": "Кредитната картичка е истечена",
+        "declined": "Картичката е одбиена. ",
+        "invalid_address": "Адресата на картичката е неточна.",
+        "insufficient_funds": "Сметката немаше доволно средства за покривање на износот на трансакцијата.",
+        "card_not_supported": "Картичката не е поддржана во географскиот регион.",
+        "currency_not_supported": "Валутата во моментов не е поддржана."
+      },
+      "transaction": {
+        "declined": "Настана грешка при обработката на картичката. "
+      },
+      "discounts": {
+        "conflict": "Некои попусти не можат да се комбинираат. "
+      },
+      "order_validation": {
+        "domain_crawling": {
+          "title": "Нарачката не може да се обработи.",
+          "description": "Не сте обвинети. "
+        },
+        "product_crawling": {
+          "title": "Цената на производите во количката можеби е променета.",
+          "description": "Обидете се да ги отстраните и додадете во вашата кошничка. "
+        },
+        "stock_validation": {
+          "title": "Залихите на производите се недостапни.",
+          "description": "Некои производи може да се без залиха за избраната количина. "
+        },
+        "custom_fields_validation": {
+          "title": "Недостасуваат потребни информации.",
+          "description": "На некои производи во количката им недостасуваат задолжителни информации. "
+        },
+        "shipping_validation": {
+          "title": "Начинот на испорака не може да се потврди.",
+          "description": "Избраната цена на испорака можеби е променета или не е достапна. "
+        }
+      },
+      "invalid_address": "Адресата е неважечка.",
+      "shipping": {
+        "account_configuration": {
+          "title": "Во моментов не е достапен метод за испорака",
+          "description": "Обидете се повторно подоцна или контактирајте со нас за поддршка."
+        },
+        "rates_calculation": {
+          "title": "Не може да се пресмета испораката за вашата нарачка",
+          "description": "Обидете се повторно подоцна или контактирајте со нас за поддршка."
+        },
+        "no_rates_found": {
+          "title": "Нема достапни начини за испорака за вашата нарачка",
+          "description": "Ве молиме прегледајте ја вашата адреса за испорака или контактирајте со нас."
+        },
+        "E.COUNTRY.UNSUPPORTED": "Земјата не е поддржана. ",
+        "E.ENGINE.UNAVAILABLE": "Се појави грешка при потврдувањето на адресата. ",
+        "E.QUERY.UNANSWERABLE": "Се појави грешка при потврдувањето на адресата. ",
+        "E.ADDRESS.NOT_FOUND": "Адресата не е пронајдена. ",
+        "E.SECONDARY_INFORMATION.INVALID": "Неважечки секундарни информации (Apt/Suite",
+        "E.SECONDARY_INFORMATION.MISSING": "Недостасуваат секундарни информации (Apt/Suite",
+        "E.HOUSE_NUMBER.MISSING": "Недостасува бројот на куќата.",
+        "E.HOUSE_NUMBER.INVALID": "Бројот на куќата е неважечки.",
+        "E.STREET.MISSING": "Недостасува улица.",
+        "E.STREET.INVALID": "Улицата е неважечка.",
+        "E.BOX_NUMBER.MISSING": "Недостасува бројот на кутијата.",
+        "E.BOX_NUMBER.INVALID": "Бројот на кутијата е неважечки.",
+        "E.ADDRESS.INVALID": "Неважечки град/држава/ZIP.",
+        "E.ZIP.NOT_FOUND": "Патентот не е пронајден.",
+        "E.ZIP.INVALID": "Зип е неважечки.",
+        "E.ZIP.PLUS4.NOT_FOUND": "Zip 4 не е пронајден.",
+        "E.ADDRESS.MULTIPLE": "Повеќе адреси беа вратени со истиот zip.",
+        "E.ADDRESS.INSUFFICIENT": "Неточна адреса. ",
+        "E.ADDRESS.DUAL": "Двојна адреса. ",
+        "E.STREET.MAGNET": "Пронајдени повеќе адреси поради синдром на улица магнет. ",
+        "E.CITY_STATE.INVALID": "Непроверлив град/држава.",
+        "E.STATE.INVALID": "Неважечка држава.",
+        "E.ADDRESS.DELIVERY.INVALID": "Неважечка адреса за испорака.",
+        "E.TIMED_OUT": "Се појави грешка при потврдувањето на адресата. ",
+        "E.TIME_ZONE.UNAVAILABLE": "Се појави грешка при потврдувањето на адресата. ",
+        "E.PO_BOX.INTERNATIONAL": "Не може да се потврди меѓународната поштенска кутија."
+      },
+      "payment_failed": {
+        "title": "Не може да се обработи плаќањето",
+        "description": "Обидете се повторно подоцна или контактирајте со нас за поддршка."
+      },
+      "payment_authorization": {
+        "title": "Не може да се обработи плаќањето",
+        "default": "Ве молиме прегледајте ги информациите за наплата и плаќање."
+      },
+      "authentication_challenge": {
+        "failed": {
+          "title": "Не може да се обработи плаќањето",
+          "description": "Не успеавме да ги потврдиме вашите информации за плаќање. "
+        }
+      },
+      "cart_items": {
+        "cart_can_only_contain_one_subscription": {
+          "title": "Претплатата не може да се додаде во количката",
+          "description": "Количката може да содржи само една претплата во исто време."
+        },
+        "cart_can_only_contain_items_or_subscriptions": {
+          "title": "Производот не може да се додаде во количката",
+          "description": "Количката може да содржи само ставки или претплата."
+        }
+      },
+      "customer_exists": "Оваа е-пошта е веќе користена.",
+      "customer_password_missmatch": "Двете лозинки мора да се совпаѓаат.",
+      "customer_password_token_expired": "Вашиот токен за враќање на лозинката е истечен.",
+      "customer_password_token_invalid": "Вашиот токен за враќање на лозинката е неважечки.",
+      "customer_not_found": "Адресата на е-пошта не е поврзана со ниедна сметка.",
+      "invalid_credentials": "Неважечка е-пошта или лозинка.",
+      "customer_current_password_invalid": "Невалидна лозинка."
+    },
+    "shippingRates": {
+      "loading": "Се вчитуваат цени за испорака"
+    },
+    "customer_orders": {
+      "loading": "Се вчитува..."
+    },
+    "digital_goods": {
+      "download": "Преземете ја датотеката"
+    },
+    "confirmation": {
+      "thank_you_for_your_order": "Ви благодариме за вашата нарачка",
+      "async_confirmation_notice": "Вашата нарачка е поставена и моментално се обработува. "
+    },
+    "checkout": {
+      "shipping_taxes_calculated_when_address_provided": "Испораката и даноците ќе се пресметаат откако ќе се наведе адресата."
+    },
+    "countries": {
+      "AD": {
+        "name": "Андора"
+      },
+      "AE": {
+        "name": "Обединети Арапски Емирати"
+      },
+      "AF": {
+        "name": "Авганистан"
+      },
+      "AG": {
+        "name": "Антигва и Барбуда"
+      },
+      "AI": {
+        "name": "Ангвила"
+      },
+      "AL": {
+        "name": "Албанија"
+      },
+      "AM": {
+        "name": "Ерменија"
+      },
+      "AO": {
+        "name": "Ангола"
+      },
+      "AQ": {
+        "name": "Антарктикот"
+      },
+      "AR": {
+        "name": "Аргентина"
+      },
+      "AS": {
+        "name": "американска Самоа"
+      },
+      "AT": {
+        "name": "Австрија"
+      },
+      "AU": {
+        "name": "Австралија"
+      },
+      "AW": {
+        "name": "Аруба"
+      },
+      "AX": {
+        "name": "Аланд"
+      },
+      "AZ": {
+        "name": "Азербејџан"
+      },
+      "BA": {
+        "name": "Босна и Херцеговина"
+      },
+      "BB": {
+        "name": "Барбадос"
+      },
+      "BD": {
+        "name": "Бангладеш"
+      },
+      "BE": {
+        "name": "Белгија"
+      },
+      "BF": {
+        "name": "Буркина Фасо"
+      },
+      "BG": {
+        "name": "Бугарија"
+      },
+      "BH": {
+        "name": "Бахреин"
+      },
+      "BI": {
+        "name": "Бурунди"
+      },
+      "BJ": {
+        "name": "Бенин"
+      },
+      "BL": {
+        "name": "Свети Вартелеј"
+      },
+      "BM": {
+        "name": "Бермуди"
+      },
+      "BN": {
+        "name": "Брунеи"
+      },
+      "BO": {
+        "name": "Боливија"
+      },
+      "BQ": {
+        "name": "Бонер"
+      },
+      "BR": {
+        "name": "Бразил"
+      },
+      "BS": {
+        "name": "Бахамите"
+      },
+      "BT": {
+        "name": "Бутан"
+      },
+      "BV": {
+        "name": "Островот Буве"
+      },
+      "BW": {
+        "name": "Боцвана"
+      },
+      "BY": {
+        "name": "Белорусија"
+      },
+      "BZ": {
+        "name": "Белизе"
+      },
+      "CA": {
+        "name": "Канада",
+        "states": {
+          "AB": "Алберта",
+          "BC": "британска Колумбија",
+          "MB": "Манитоба",
+          "NB": "Њу Бранзвик",
+          "NL": "Њуфаундленд",
+          "NS": "Нова Шкотска",
+          "NT": "Северозападни територии",
+          "NU": "Нунавут",
+          "ON": "Онтарио",
+          "PE": "Островот принц Едвард",
+          "QC": "Квебек",
+          "SK": "Саскачеван",
+          "YT": "Јукон"
+        }
+      },
+      "CC": {
+        "name": "Острови Кокос [Килинг]"
+      },
+      "CD": {
+        "name": "Конго"
+      },
+      "CF": {
+        "name": "Централноафриканска Република"
+      },
+      "CG": {
+        "name": "Република Конго"
+      },
+      "CH": {
+        "name": "Швајцарија"
+      },
+      "CI": {
+        "name": "Брегот на Слоновата Коска"
+      },
+      "CK": {
+        "name": "Кукови Острови"
+      },
+      "CL": {
+        "name": "Чиле"
+      },
+      "CM": {
+        "name": "Камерун"
+      },
+      "CN": {
+        "name": "Кина"
+      },
+      "CO": {
+        "name": "Колумбија"
+      },
+      "CR": {
+        "name": "Костарика"
+      },
+      "CU": {
+        "name": "Куба"
+      },
+      "CV": {
+        "name": "Кејп Верде"
+      },
+      "CW": {
+        "name": "Курасао"
+      },
+      "CX": {
+        "name": "Божиќниот остров"
+      },
+      "CY": {
+        "name": "Кипар"
+      },
+      "CZ": {
+        "name": "Чешка"
+      },
+      "DE": {
+        "name": "Германија"
+      },
+      "DJ": {
+        "name": "Џибути"
+      },
+      "DK": {
+        "name": "Данска"
+      },
+      "DM": {
+        "name": "Доминика"
+      },
+      "DO": {
+        "name": "Доминиканска Република"
+      },
+      "DZ": {
+        "name": "Алжир"
+      },
+      "EC": {
+        "name": "Еквадор"
+      },
+      "EE": {
+        "name": "Естонија"
+      },
+      "EG": {
+        "name": "Египет"
+      },
+      "EH": {
+        "name": "Западна Сахара"
+      },
+      "ER": {
+        "name": "Еритреја"
+      },
+      "ES": {
+        "name": "Шпанија",
+        "states": {
+          "A": "Аликанте",
+          "AB": "Албасете",
+          "AL": "Алмерија",
+          "AV": "Авила",
+          "B": "Барселона",
+          "BA": "Бадахоз",
+          "BI": "Вискаја",
+          "BU": "Бургос",
+          "C": "Ла Коруња",
+          "CA": "Кадиз",
+          "CC": "Касерес",
+          "CE": "Сеута",
+          "CO": "Кордоба",
+          "CR": "Сиудад Реал",
+          "CS": "Кастељон",
+          "CU": "Куенка",
+          "GC": "Лас Палмас",
+          "GI": "Џерона",
+          "GR": "Гранада",
+          "GU": "Гвадалахара",
+          "H": "Хуелва",
+          "HU": "Хуеска",
+          "J": "Јаен",
+          "L": "Лерида",
+          "LE": "Леон",
+          "LO": "Ла Риоха",
+          "LU": "Луго",
+          "M": "Мадрид",
+          "MA": "Малага",
+          "ML": "Мелила",
+          "MU": "Мурсија",
+          "NA": "Навара",
+          "O": "Астуриас",
+          "OU": "Оренсе",
+          "P": "Паленсија",
+          "PM": "Балеарес",
+          "PO": "Понтеведра",
+          "S": "Кантабрија",
+          "SA": "Саламанка",
+          "SE": "Севиља",
+          "SG": "Сеговија",
+          "SO": "Сорија",
+          "SS": "Гипузкоа",
+          "T": "Тарагона",
+          "TE": "Теруел",
+          "TF": "Тенерифе",
+          "TO": "Толедо",
+          "V": "Валенсија",
+          "VA": "Ваљадолид",
+          "VI": "Алава",
+          "Z": "Сарагоса",
+          "ZA": "Замора"
+        }
+      },
+      "ES-CN": {
+        "name": "Канарските острови"
+      },
+      "ET": {
+        "name": "Етиопија"
+      },
+      "FI": {
+        "name": "Финска"
+      },
+      "FJ": {
+        "name": "Фиџи"
+      },
+      "FK": {
+        "name": "Фолкландските Острови"
+      },
+      "FM": {
+        "name": "Микронезија"
+      },
+      "FO": {
+        "name": "Фарски Острови"
+      },
+      "FR": {
+        "name": "Франција"
+      },
+      "GA": {
+        "name": "Габон"
+      },
+      "GB": {
+        "name": "Обединето Кралство"
+      },
+      "GD": {
+        "name": "Гренада"
+      },
+      "GE": {
+        "name": "Грузија"
+      },
+      "GF": {
+        "name": "Француска Гвајана"
+      },
+      "GG": {
+        "name": "Гернзи"
+      },
+      "GH": {
+        "name": "Гана"
+      },
+      "GI": {
+        "name": "Гибралтар"
+      },
+      "GL": {
+        "name": "Гренланд"
+      },
+      "GM": {
+        "name": "Гамбија"
+      },
+      "GN": {
+        "name": "Гвинеја"
+      },
+      "GP": {
+        "name": "Гвадалупе"
+      },
+      "GQ": {
+        "name": "Екваторијална Гвинеја"
+      },
+      "GR": {
+        "name": "Грција"
+      },
+      "GS": {
+        "name": "Јужна Џорџија и Јужните Сендвич Острови"
+      },
+      "GT": {
+        "name": "Гватемала"
+      },
+      "GU": {
+        "name": "Гуам"
+      },
+      "GW": {
+        "name": "Гвинеја-Бисао"
+      },
+      "GY": {
+        "name": "Гвајана"
+      },
+      "HK": {
+        "name": "Хонг Конг"
+      },
+      "HM": {
+        "name": "Островот Херд и Островите Мекдоналд"
+      },
+      "HN": {
+        "name": "Хондурас"
+      },
+      "HR": {
+        "name": "Хрватска"
+      },
+      "HT": {
+        "name": "Хаити"
+      },
+      "HU": {
+        "name": "Унгарија"
+      },
+      "ID": {
+        "name": "Индонезија"
+      },
+      "IE": {
+        "name": "Ирска"
+      },
+      "IL": {
+        "name": "Израел"
+      },
+      "IM": {
+        "name": "Островот Ман"
+      },
+      "IN": {
+        "name": "Индија"
+      },
+      "IO": {
+        "name": "Британска територија на Индискиот Океан"
+      },
+      "IQ": {
+        "name": "Ирак"
+      },
+      "IR": {
+        "name": "Иран"
+      },
+      "IS": {
+        "name": "Исланд"
+      },
+      "IT": {
+        "name": "Италија"
+      },
+      "JE": {
+        "name": "Џерси"
+      },
+      "JM": {
+        "name": "Јамајка"
+      },
+      "JO": {
+        "name": "Јордан"
+      },
+      "JP": {
+        "name": "Јапонија",
+        "states": {
+          "JP-01": "Хокаидо",
+          "JP-02": "Аомори",
+          "JP-03": "Ивате",
+          "JP-04": "Мијаги",
+          "JP-05": "Акита",
+          "JP-06": "Јамагата",
+          "JP-07": "Фукушима",
+          "JP-08": "Ибараки",
+          "JP-09": "Точиги",
+          "JP-10": "Гунма",
+          "JP-11": "Саитама",
+          "JP-12": "Чиба",
+          "JP-13": "Токио",
+          "JP-14": "Канагава",
+          "JP-15": "Ниигата",
+          "JP-16": "Тојама",
+          "JP-17": "Ишикава",
+          "JP-18": "Фукуи",
+          "JP-19": "Јаманаши",
+          "JP-20": "Нагано",
+          "JP-21": "Гифу",
+          "JP-22": "Шизуока",
+          "JP-23": "Аичи",
+          "JP-24": "Мие",
+          "JP-25": "Шига",
+          "JP-26": "Кјото",
+          "JP-27": "Осака",
+          "JP-28": "Хјого",
+          "JP-29": "Нара",
+          "JP-30": "Вакајама",
+          "JP-31": "Тотори",
+          "JP-32": "Шимане",
+          "JP-33": "Окајама",
+          "JP-34": "Хирошима",
+          "JP-35": "Јамагучи",
+          "JP-36": "Токушима",
+          "JP-37": "Кагава",
+          "JP-38": "Ехиме",
+          "JP-39": "Кочи",
+          "JP-40": "Фукуока",
+          "JP-41": "Сага",
+          "JP-42": "Нагасаки",
+          "JP-43": "Кумамото",
+          "JP-44": "Оита",
+          "JP-45": "Мијазаки",
+          "JP-46": "Кагошима",
+          "JP-47": "Окинава"
+        }
+      },
+      "KE": {
+        "name": "Кенија"
+      },
+      "KG": {
+        "name": "Киргистан"
+      },
+      "KH": {
+        "name": "Камбоџа"
+      },
+      "KI": {
+        "name": "Кирибати"
+      },
+      "KM": {
+        "name": "Коморите"
+      },
+      "KN": {
+        "name": "Свети Китс и Невис"
+      },
+      "KP": {
+        "name": "Северна Кореа"
+      },
+      "KR": {
+        "name": "Јужна Кореа"
+      },
+      "KW": {
+        "name": "Кувајт"
+      },
+      "KY": {
+        "name": "Кајмански Острови"
+      },
+      "KZ": {
+        "name": "Казахстан"
+      },
+      "LA": {
+        "name": "Лаос"
+      },
+      "LB": {
+        "name": "Либан"
+      },
+      "LC": {
+        "name": "Света Луција"
+      },
+      "LI": {
+        "name": "Лихтенштајн"
+      },
+      "LK": {
+        "name": "Шри Ланка"
+      },
+      "LR": {
+        "name": "Либерија"
+      },
+      "LS": {
+        "name": "Лесото"
+      },
+      "LT": {
+        "name": "Литванија"
+      },
+      "LU": {
+        "name": "Луксембург"
+      },
+      "LV": {
+        "name": "Латвија"
+      },
+      "LY": {
+        "name": "Либија"
+      },
+      "MA": {
+        "name": "Мароко"
+      },
+      "MC": {
+        "name": "Монако"
+      },
+      "MD": {
+        "name": "Молдавија"
+      },
+      "ME": {
+        "name": "Црна Гора"
+      },
+      "MF": {
+        "name": "Свети Мартин"
+      },
+      "MG": {
+        "name": "Мадагаскар"
+      },
+      "MH": {
+        "name": "Маршалските Острови"
+      },
+      "MK": {
+        "name": "Македонија"
+      },
+      "ML": {
+        "name": "Мали"
+      },
+      "MM": {
+        "name": "Мјанмар [Бурма]"
+      },
+      "MN": {
+        "name": "Монголија"
+      },
+      "MO": {
+        "name": "Макао"
+      },
+      "MP": {
+        "name": "Северните Маријански Острови"
+      },
+      "MQ": {
+        "name": "Мартиник"
+      },
+      "MR": {
+        "name": "Мавританија"
+      },
+      "MS": {
+        "name": "Монсерат"
+      },
+      "MT": {
+        "name": "Малта"
+      },
+      "MU": {
+        "name": "Маурициус"
+      },
+      "MV": {
+        "name": "Малдиви"
+      },
+      "MW": {
+        "name": "Малави"
+      },
+      "MX": {
+        "name": "Мексико",
+        "states": {
+          "AGU": "Агуаскалиентес",
+          "BCN": "Долна Калифорнија",
+          "BCS": "Долна Калифорнија Сур",
+          "CAM": "Кампече",
+          "CHH": "Чивава",
+          "CHP": "Чиапас",
+          "COA": "Коахуила",
+          "COL": "Колима",
+          "DIF": "Сиудад де Мексико",
+          "DUR": "Дуранго",
+          "GRO": "Гереро",
+          "GUA": "Гуанахуато",
+          "HID": "Идалго",
+          "JAL": "Халиско",
+          "MEX": "Мексико",
+          "MIC": "Мичоакан",
+          "MOR": "Морелос",
+          "NAY": "Најарит",
+          "NLE": "Нуево Леон",
+          "OAX": "Оахака",
+          "PUE": "Пуебла",
+          "QUE": "Керетаро",
+          "ROO": "Квинтана Ру",
+          "SIN": "Синалоа",
+          "SLP": "Сан Луис Потоси",
+          "SON": "Сонора",
+          "TAB": "Табаско",
+          "TAM": "Тамаулипас",
+          "TLA": "Тлаксала",
+          "VER": "Веракруз",
+          "YUC": "Јукатан",
+          "ZAC": "Закатекас"
+        }
+      },
+      "MY": {
+        "name": "Малезија"
+      },
+      "MZ": {
+        "name": "Мозамбик"
+      },
+      "NA": {
+        "name": "Намибија"
+      },
+      "NC": {
+        "name": "Нова Каледонија"
+      },
+      "NE": {
+        "name": "Нигер"
+      },
+      "NF": {
+        "name": "Островот Норфолк"
+      },
+      "NG": {
+        "name": "Нигерија"
+      },
+      "NI": {
+        "name": "Никарагва"
+      },
+      "NL": {
+        "name": "Холандија"
+      },
+      "NO": {
+        "name": "Норвешка"
+      },
+      "NP": {
+        "name": "Непал"
+      },
+      "NR": {
+        "name": "Науру"
+      },
+      "NU": {
+        "name": "Ниуе"
+      },
+      "NZ": {
+        "name": "Нов Зеланд"
+      },
+      "OM": {
+        "name": "Оман"
+      },
+      "PA": {
+        "name": "Панама"
+      },
+      "PE": {
+        "name": "Перу"
+      },
+      "PF": {
+        "name": "Француска Полинезија"
+      },
+      "PG": {
+        "name": "Папуа Нова Гвинеја"
+      },
+      "PH": {
+        "name": "Филипини"
+      },
+      "PK": {
+        "name": "Пакистан"
+      },
+      "PL": {
+        "name": "Полска"
+      },
+      "PM": {
+        "name": "Сен Пјер и Микелон"
+      },
+      "PN": {
+        "name": "Острови Питкерн"
+      },
+      "PR": {
+        "name": "Порторико"
+      },
+      "PS": {
+        "name": "Палестина"
+      },
+      "PT": {
+        "name": "Португалија"
+      },
+      "PW": {
+        "name": "Палау"
+      },
+      "PY": {
+        "name": "Парагвај"
+      },
+      "QA": {
+        "name": "Катар"
+      },
+      "RE": {
+        "name": "Реунион"
+      },
+      "RO": {
+        "name": "Романија"
+      },
+      "RS": {
+        "name": "Србија"
+      },
+      "RU": {
+        "name": "Русија"
+      },
+      "RW": {
+        "name": "Руанда"
+      },
+      "SA": {
+        "name": "Саудиска Арабија"
+      },
+      "SB": {
+        "name": "Соломонови Острови"
+      },
+      "SC": {
+        "name": "Сејшели"
+      },
+      "SD": {
+        "name": "Судан"
+      },
+      "SE": {
+        "name": "Шведска"
+      },
+      "SG": {
+        "name": "Сингапур"
+      },
+      "SH": {
+        "name": "Света Елена"
+      },
+      "SI": {
+        "name": "Словенија"
+      },
+      "SJ": {
+        "name": "Свалбард и Јан Мајен"
+      },
+      "SK": {
+        "name": "Словачка"
+      },
+      "SL": {
+        "name": "Сиера Леоне"
+      },
+      "SM": {
+        "name": "Сан Марино"
+      },
+      "SN": {
+        "name": "Сенегал"
+      },
+      "SO": {
+        "name": "Сомалија"
+      },
+      "SR": {
+        "name": "Суринам"
+      },
+      "SS": {
+        "name": "Јужен Судан"
+      },
+      "ST": {
+        "name": "Сао Томе и Принсипе"
+      },
+      "SV": {
+        "name": "Ел Салвадор"
+      },
+      "SX": {
+        "name": "Синт Мартен"
+      },
+      "SY": {
+        "name": "Сирија"
+      },
+      "SZ": {
+        "name": "Свазиленд"
+      },
+      "TC": {
+        "name": "Островите Туркс и Каикос"
+      },
+      "TD": {
+        "name": "Чад"
+      },
+      "TF": {
+        "name": "Француски јужни територии"
+      },
+      "TG": {
+        "name": "Да оди"
+      },
+      "TH": {
+        "name": "Тајланд"
+      },
+      "TJ": {
+        "name": "Таџикистан"
+      },
+      "TK": {
+        "name": "Токелау"
+      },
+      "TL": {
+        "name": "Источен Тимор"
+      },
+      "TM": {
+        "name": "Туркменистан"
+      },
+      "TN": {
+        "name": "Тунис"
+      },
+      "TO": {
+        "name": "Тонга"
+      },
+      "TR": {
+        "name": "Турција"
+      },
+      "TT": {
+        "name": "Тринидад и Тобаго"
+      },
+      "TV": {
+        "name": "Тувалу"
+      },
+      "TW": {
+        "name": "Тајван"
+      },
+      "TZ": {
+        "name": "Танзанија"
+      },
+      "UA": {
+        "name": "Украина"
+      },
+      "UG": {
+        "name": "Уганда"
+      },
+      "UM": {
+        "name": "Мали оддалечени острови на САД"
+      },
+      "US": {
+        "name": "Соединети Држави",
+        "states": {
+          "AA": "Вооружени сили на Америка",
+          "AE": "Вооружени сили Европа",
+          "AK": "Алјаска",
+          "AL": "Алабама",
+          "AP": "Вооружени сили Пацифик",
+          "AR": "Арканзас",
+          "AS": "американска Самоа",
+          "AZ": "Аризона",
+          "CA": "Калифорнија",
+          "CO": "Колорадо",
+          "CT": "Конектикат",
+          "DC": "Дистрикт Колумбија",
+          "DE": "Делавер",
+          "FL": "Флорида",
+          "FM": "Федерални држави на Микронезија",
+          "GA": "Грузија",
+          "GU": "Гуам",
+          "HI": "Хаваи",
+          "IA": "Ајова",
+          "ID": "Ајдахо",
+          "IL": "Илиноис",
+          "IN": "Индијана",
+          "KS": "Канзас",
+          "KY": "Кентаки",
+          "LA": "Луизијана",
+          "MA": "Масачусетс",
+          "MD": "Мериленд",
+          "ME": "Мејн",
+          "MH": "Маршалските Острови",
+          "MI": "Мичиген",
+          "MN": "Минесота",
+          "MO": "Мисури",
+          "MP": "Северните Маријански Острови",
+          "MS": "Мисисипи",
+          "MT": "Монтана",
+          "NC": "Северна Каролина",
+          "ND": "Северна Дакота",
+          "NE": "Небраска",
+          "NH": "Њу Хемпшир",
+          "NJ": "Њу Џерси",
+          "NM": "Ново Мексико",
+          "NV": "Невада",
+          "NY": "Њујорк",
+          "OH": "Охајо",
+          "OK": "Оклахома",
+          "OR": "Орегон",
+          "PA": "Пенсилванија",
+          "PR": "Порторико",
+          "PW": "Палау",
+          "RI": "Род Ајленд",
+          "SC": "Јужна Каролина",
+          "SD": "Јужна Дакота",
+          "TN": "Тенеси",
+          "TX": "Тексас",
+          "UT": "Јута",
+          "VA": "Вирџинија",
+          "VI": "Девствени Острови",
+          "VT": "Вермонт",
+          "WA": "Вашингтон",
+          "WI": "Висконсин",
+          "WV": "Западна Вирџинија",
+          "WY": "Вајоминг"
+        }
+      },
+      "UY": {
+        "name": "Уругвај"
+      },
+      "UZ": {
+        "name": "Узбекистан"
+      },
+      "VA": {
+        "name": "Ватикан"
+      },
+      "VC": {
+        "name": "Свети Винсент и Гренадини"
+      },
+      "VE": {
+        "name": "Венецуела"
+      },
+      "VG": {
+        "name": "Британски Девствени Острови"
+      },
+      "VI": {
+        "name": "Американски Девствени Острови"
+      },
+      "VN": {
+        "name": "Виетнам"
+      },
+      "VU": {
+        "name": "Вануату"
+      },
+      "WF": {
+        "name": "Волис и Футуна"
+      },
+      "WS": {
+        "name": "Самоа"
+      },
+      "XK": {
+        "name": "Косово"
+      },
+      "YE": {
+        "name": "Јемен"
+      },
+      "YT": {
+        "name": "Мајот"
+      },
+      "ZA": {
+        "name": "Јужна Африка"
+      },
+      "ZM": {
+        "name": "Замбија"
+      },
+      "ZW": {
+        "name": "Зимбабве"
+      }
+    }
+  }
